@@ -27,8 +27,8 @@ month = sep,
 * Install dependencies using pip/anaconda/etc, if needed: Streamlit, ...
 
 * Download image set from [link](https://drive.google.com/file/d/1jKCcRIECSJSLO6M7GYGJyukKetpGh-Ox/view?usp=sharing) and unzip in main folder
-* Optionally, download precomputed results from 
-[link](https://drive.google.com/file/d/1EnI10uc3UlagtTtx4DLIVaBEmoJkQMe7/view?usp=sharing). 
+* Optionally, download precomputed histograms from 
+[link](https://drive.google.com/file/d/1EnI10uc3UlagtTtx4DLIVaBEmoJkQMe7/view?usp=sharing), otherwise these will be recomputed the first time you run the code. 
 
 ## To run:
 
