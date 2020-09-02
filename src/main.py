@@ -1,6 +1,6 @@
 """
  Toward Quantifying Ambiguities in Artistic Images - Python analysis implementation
- Copyright (c) 2020 Xi Wang <xi.wang@tu-berlin.de>
+ Copyright (c) 2020 Xi Wang <xi.wang@tu-berlin.de> Zoya Bylinskii <bylinski@adobe.com>, Aaron Hertzmann <hertzman@adobe.com> and Adobe Research
 
  Licensed under the Apache License, Version 2.0 (the "License");
  you may not use this file except in compliance with the License.
