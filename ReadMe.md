@@ -39,17 +39,23 @@ streamlit run analysis.py
 ### Interface
 You can change selections in the sidebar on the left to see different visualizations.
 
-- `Image Category`: select "All" to see all the images.
+* `Image Category`: select "All" to see all the images.
 
 - `Display mode`: a drop-down menu with the following four options. 
     - `Single image`: shows details of each image in the selected category. 
-        -`Show descriptions`: prints out all raw descriptions gathered from participants.    
-        -`Show descriptions table`: shows a table view of how descriptions are parsed to nouns, from which synonyms are further grouped together.      
+    
+        -`Show descriptions`: prints out all raw descriptions gathered from participants.
+            
+        -`Show descriptions table`: shows a table view of how descriptions are parsed to nouns, from which synonyms are further grouped together.
+              
         -`Plot histograms of nouns`: By default, histograms of nouns from descriptions in both viewing condition (0.5s and 3s) is plotted.
-    -`First N images`: shows the first N images from the selected category. 
-    -`Scatterplot`: `X axis` and `Y axis` can be selected from the drop-down menus. 
+        
+    -`First N images`: shows the first N images from the selected category.
+     
+    -`Scatterplot`: `X axis` and `Y axis` can be selected from the drop-down menus.  
     Fig. 6 in the published paper can viewed by selecting `H_3000` for `X axis` and `H_500` for `Y axis`.
     Mouseover a dot to see the name of that image.
+    
     -`Sorted images`: displays images sorted by different metrics, including entropy from both viewing conditions,
      entropy difference, and entropy from 3s viewing.
 
