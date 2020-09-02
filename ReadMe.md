@@ -22,15 +22,17 @@ month = sep,
 }
 ```
 
-## Software Components
+## Setup
 
-Image set used in this study can be downloaded from
-[link](https://drive.google.com/file/d/1jKCcRIECSJSLO6M7GYGJyukKetpGh-Ox/view?usp=sharing).
+* Install dependencies using pip/anaconda/etc, if needed: Streamlit, ...
 
-Precomputed results can be downloaded from 
+* Download image set from `https://drive.google.com/file/d/1jKCcRIECSJSLO6M7GYGJyukKetpGh-Ox/view?usp=sharing` and unzip in main folder
+* Optionally, download precomputed from 
 [link](https://drive.google.com/file/d/1EnI10uc3UlagtTtx4DLIVaBEmoJkQMe7/view?usp=sharing). 
 
-Our analysis is built using [streamlit](https://www.streamlit.io/). To run the app: 
+## To run:
+
+To run the app: 
 ```
 cd src
 streamlit run main.py
