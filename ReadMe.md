@@ -25,11 +25,28 @@ month = sep,
 ## Setup
 
 * Install dependencies using pip/anaconda/etc, if needed: Streamlit, ...
-
+They can also be installed by 
+    ```
+    pip install -r requirements.txt
+    ```
 * Download image set from [link](https://drive.google.com/file/d/1jKCcRIECSJSLO6M7GYGJyukKetpGh-Ox/view?usp=sharing) and unzip in main folder
 * Optionally, download precomputed histograms from 
 [link](https://drive.google.com/file/d/1EnI10uc3UlagtTtx4DLIVaBEmoJkQMe7/view?usp=sharing), otherwise these will be recomputed the first time you run the code. 
 
+File structure:
+```
+visual-indeterminacy
+|-- past_task_data
+|   |-- Abstract_30
+|   |-- AbstractFlat_30
+|   |-- Dichotomous_30
+|   |-- Indeterminate_30
+|   |-- Recognizable_30
+|-- res
+|   |-- histograms_grouped_*.pickle
+|-- src
+|-- study_data
+```
 ## To run:
 
 ```
