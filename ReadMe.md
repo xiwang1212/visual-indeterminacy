@@ -32,7 +32,6 @@ month = sep,
 
 ## To run:
 
-To run the app: 
 ```
 cd src
 streamlit run main.py
