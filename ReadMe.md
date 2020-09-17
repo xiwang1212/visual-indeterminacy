@@ -54,6 +54,9 @@ cd src
 streamlit run main.py
 ```
 
+### Check it online
+You can also out this [online application](https://obscure-crag-12967.herokuapp.com/)
+
 ### Interface
 You can change selections in the sidebar on the left to see different visualizations.
 
